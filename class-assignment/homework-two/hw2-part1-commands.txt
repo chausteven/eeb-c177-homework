@@ -1,0 +1,42 @@
+  343  wget-c http://dev.shawntylerschwartz.com/docs/paragraphs.txt
+  344  wget -c http://dev.shawntylerschwartz.com/docs/paragraphs.txt
+  345  cd ..
+  346  cd..
+  347  cd ..
+  348  ls
+  349  cd eeb-c177-homework/
+  350  ls
+  351  cd class-assignment/
+  352  ls
+  353  rm badly\ named\ file.txt 
+  354  mkdir homework-two
+  355  mv paragrahps.txt/sandbox .
+  356  ls sandbox
+  357  cd..
+  358  cd ..
+  359  cd CSB
+  360  cd unix
+  361  cd sandbox/
+  362  ls
+  363  cd ../../..
+  364  cd eeb-c177-homework/class-assignment/homework-two/
+  365  mv paragraphs.txt/sandbox .
+  366  mv paragraphs.txt .
+  367  ls
+  368  mv ~/Developer/repos/CSB/unix/sandbox/paragraphs.txt .
+  369  ls
+  370  git add -A
+  371  git commit 
+  372  git commit -m
+  373  git commit -m "Lecture Homework #2"
+  374  git push origin master 
+  375  mv paragraphs.txt easy-question.txt
+  376  ls
+  377  git add -A
+  378  git commit -m
+  379  git commit -m "Lecture Homework #2"
+  380  git push origin master
+  381  touch hw2-part1-commands.txt
+  382  history > hw2-part1-commands.txt 
+  383  nano hw2-part1-commands.txt 
+  384  history 42 > hw2-part1-commands.txt 
