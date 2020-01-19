@@ -1,0 +1,8 @@
+  494  sort fish_species.txt
+  495  sort fish_species.txt > fishes-sort.txt
+  496  sort -r fish_species.txt 
+  497  sort -r fish_species.txt > fishes-rev-sort.txt
+  498  sort fish_species.txt | uniq
+  499  sort fish_species.txt | uniq > fishes-unique.txt
+  500  history 
+  501  history 8 > hw2-part4-commands.txt

@@ -1,0 +1,7 @@
+  502  cd ../../..
+  503  cd CSB/unix/data/
+  504  ls
+  505  head -1 Pacifici2013_data.csv 
+  506  tail -n +2 Pacifici2013_data.csv | cut -d ";" -f 2-6 | tr ":" " " | sort -r -n -k 6 > bodym.csv
+  507  ls
+  508  history 7 > ~/Developer/repos/eeb-c177-homework/class-assignment/homework-two/hw2_part5-commands.txt
