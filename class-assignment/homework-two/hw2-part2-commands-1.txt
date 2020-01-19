@@ -1,0 +1,21 @@
+  391  ../../../CSB/unix/data
+  392  head -n Pacifici2013_data.csv 
+  393  head 25 Pacifici2013_data.csv 
+  394  head -n 25 Pacifici2013_data.csv 
+  395  cat -n Pacifici2013_data.csv 
+  396  history 3
+  397  command
+  398  head -n 25 Pacifici2013_data.csv > ~/Developer/repos/eeb-c177-homework/class-assignment/homework-two/Pacifici2013_data.csv
+  399  head -n 25 Pacifici2013_data.csv > ~/Developer/repos/eeb-c177-homework/class-assignment/homework-two/Pacifici-25lines.txt
+  400  cd ../../../eeb-c177-homework/class-assignment/homework-two/
+  401  ls
+  402  rm Pacifici2013_data.csv 
+  403  ls
+  404  wc -w Pacifici-25lines.txt > Pacifici-25wordcount.txt
+  405  ls
+  406  nano Pacifici-25wordcount.txt 
+  407  nano Pacifici-25lines.txt 
+  408  wc Pacifici-25lines.txt 
+  409  git add -A
+  410  history
+  411  history 20 > hw2-part2-commands-1.txt
