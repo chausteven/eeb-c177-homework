@@ -1,0 +1,7 @@
+1. \bs\w*
+2. \w*(?=(\?|\.))
+3. [^.?]*
+4. [^.?]*struggle for existence[^.?]*
+Bonus: [A-Z]\w* 
+
+This command allows you to find every capitalized letter (A-Z) and the procceding characters, which works to match the first word of every sentence since we begin sentences with capitalized letters. This was the best I can do and it does not work when there are capitalized words within the middle of the sentence.
