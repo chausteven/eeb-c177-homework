@@ -1,1 +1,13 @@
-12
+1. cd ~/Developer/repos/CSB/unix/data
+2. wc -c Marra2014_data_fasta
+3. cp Marra2014_data_fasta my_file.fasta
+4. grep -c -w "isogroup00036" Developer/repos/CSB/unix/sandbox/my_file.fasta
+5. cat my_file.fasta | tr "  " "," > output.fasta 
+   cat output.fasta > my_file.fasta
+6. cat my_file.fasta | cut -d "," -f 4 | sort -n -k 4 | uniq | wc -l
+7. ?
+
+1. ?
+2. ?
+3. ?
+
