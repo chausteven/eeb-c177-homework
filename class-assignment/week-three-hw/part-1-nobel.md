@@ -10,7 +10,7 @@ cut -d "," -f 3 nobel.csv | tail -n +2 | sort -d | grep -w "physics" | wc -l
 
 # #2
 ```
-cut -d "," -f 5-6 nobel.csv | sort -d | uniq -d >> part-1-nobel.md 
+cut -d "," -f 5-6 nobel.csv | sort -d | uniq -d 
 ```
 
 # #3
@@ -22,7 +22,7 @@ cut -d "," -f 6 nobel.csv | sort -d | uniq -c | sort -n | tail -n 2
 Most Awarded
 ```
 cut -d "," -f 3 nobel.csv | tail -n +2 | sort -n | uniq -c | sort -n | tail -n 1
-'''
+```
 Least Awarded
 ```
 cut -d "," -f 3 nobel.csv | tail -n +2 | sort -n | uniq -c | sort -n | head -n 1
